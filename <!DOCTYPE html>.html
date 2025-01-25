@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f4ed;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .sidebar {
+            background-color: #e8e0d3;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile-img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-size: 18px;
+            color: #6c584c;
+            margin-bottom: 30px;
+        }
+
+        .connect {
+            margin-top: auto;
+            text-align: center;
+        }
+
+        .connect-icons a {
+            margin: 0 5px;
+            text-decoration: none;
+            color: #6c584c;
+            font-size: 20px;
+        }
+
+        .main {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #6c584c;
+        }
+
+        .about {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .resume-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c584c;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .resume-button:hover {
+            background-color: #8a7965;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+            <div class="name">Yashwanth Amara</div>
+            <div class="title">B.TECH CSE</div>
+            <div class="connect">
+                <p>CONNECT WITH ME</p>
+                <div class="connect-icons">
+                    <a href="#">📧</a>
+                    <a href="#">📸</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📘</a>
+                    <a href="#">🔗</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main">
+            <!-- About Section -->
+            <div class="section">
+                <div class="section-title">About Me</div>
+                <p class="about">
+                    Details are everything. Aspiring professional with a keen eye for detail, seeking an entry-level position in a reputable clothing brand to contribute to high-quality designs and operations while growing within the industry.
+                </p>
+            </div>
+
+            <!-- Education Section -->
+            <div class="section">
+                <div class="section-title">Education</div>
+                <p>2025 - <strong>Bachelor of Engineering</strong>, KL University</p>
+            </div>
+
+            <!-- Experience Section -->
+            <div class="section">
+                <div class="section-title">Experience</div>
+                <p>2025 - Intern in startup</p>
+            </div>
+
+            <a href="#" class="resume-button">Resume</a>
+        </div>
+    </div>
+</body>
+</html>
